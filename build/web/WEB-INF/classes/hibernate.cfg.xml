@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=Ecom</property>
+    <property name="hibernate.connection.username">sa</property>
+    <property name="hibernate.connection.password">Dspshy29</property>
+    <mapping class="model.Login"></mapping>
+    <mapping class="model.Register"></mapping>
+    <mapping class="model.RegisterServiceProvider"></mapping>
+    <mapping class="model.Feedback"></mapping>
+    <mapping class="model.ImageTp"></mapping>
+    <mapping class="model.Product"></mapping>
+    <mapping class="model.Cart1"></mapping>
+    <mapping class="model.Tabletp1"></mapping>
+    <mapping class="model.Chat"></mapping>
+  </session-factory>
+</hibernate-configuration>
