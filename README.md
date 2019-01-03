@@ -1,5 +1,5 @@
 # EcommerceScrapping
-Main features:
+**Main features:**
 
 Login Signup for buyers, sellers.
 
@@ -7,7 +7,7 @@ Product comparison functionality on various attributes
 
 Filter option for search products
 
-Technologies used:
+**Technologies used:**
 
 Java, J2EE, Hibernate framework, JSP, Servlets, HTML, CSS, JavaScript, AJAX
 
